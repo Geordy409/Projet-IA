@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RAG Schema Generator</title>
+</head>
+<body>
+    <h1>Générateur de Schémas</h1>
+    <form method="POST">
+        <label for="query">Entrez une description de schéma :</label>
+        <input type="text" id="query" name="query" required>
+        <button type="submit">Générer</button>
+    </form>
+
+    {% if image_url %}
+        <h2>Schéma généré :</h2>
+        <img src="{{ image_url }}" alt="Schéma généré">
+    {% endif %}
+</body>
+</html>
