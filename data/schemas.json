@@ -1,14 +1,20 @@
 [
     {
         "id": 1,
-        "description": "Schéma représentant un diagramme du fonctionnement d'ordinateur avec trois étapes : Entrée, Traitement, Sortie.",
+        "description": "Sch\u00e9ma repr\u00e9sentant un diagramme du fonctionnement d'ordinateur avec trois \u00e9tapes : Entr\u00e9e, Traitement, Sortie.",
         "schema_type": "diagramme d'ordinateur",
         "image_path": "data/images/ordinateur_diagram.png"
     },
     {
         "id": 2,
-        "description": "Organigramme d’une entreprise avec différents départements.",
+        "description": "Organigramme d\u2019une entreprise avec diff\u00e9rents d\u00e9partements.",
         "schema_type": "organigramme",
         "image_path": "data/images/organisation_chart.jpeg"
+    },
+    {
+        "id": 3,
+        "description": "Diagramme circulaire de la th\u00e9orie des contraintes, outil de coaching d\u2019une entreprise.",
+        "schema_type": "diagramme",
+        "image_path": "data/images/diagramme_circulaire_contraintes.jpeg"
     }
 ]

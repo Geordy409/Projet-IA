@@ -13,6 +13,12 @@ schemas = [
         "description": "Organigramme d’une entreprise avec différents départements.",
         "schema_type": "organigramme",
         "image_path": "data/images/organisation_chart.jpeg"
+    },
+    {
+        "id": 3,
+        "description": "Diagramme circulaire de la théorie des contraintes, outil de coaching d’une entreprise.",
+        "schema_type": "diagramme",
+        "image_path": "data/images/diagramme_circulaire_contraintes.jpeg"
     }
 ]
 
