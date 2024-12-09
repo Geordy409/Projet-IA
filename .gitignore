@@ -1,0 +1,11 @@
+#  Ignore virtual environment folder
+.venv/
+
+# Ignore all text files
+*.txt
+
+# Ignore files related to API keys
+.venv
+
+# Ignore files related to virtual environment
+venv
