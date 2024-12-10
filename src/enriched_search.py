@@ -48,7 +48,7 @@ except Exception as e:
     exit(1)
 
 # Assigner directement la clé API OpenAI
-openai.api_key = "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"
+openai.api_key = "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"
 
 def generate_response_gpt(prompt):
     try:
@@ -93,7 +93,7 @@ def enriched_search(query):
         return None
 
 
-query = "Créer un organigramme pour une entreprise"
+query = "Crée un diagramme qui explique le creative thinking"
 result = enriched_search(query)
 if result:
     print("Query :", result["query"])

@@ -39,7 +39,7 @@ def home():
             ],
         }
 
-        output_file = "images/organigramme.png"
+        output_file = "data/images/organigramme.png"
         generate_schema_with_matplotlib(schema_data, output_file)
 
         return render_template('index.html', image_url=output_file)

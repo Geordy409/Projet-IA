@@ -2,6 +2,7 @@ import json
 
 # Exemples de schémas et descriptions
 schemas = [
+
     {
         "id": 1,
         "description": "Schéma représentant un diagramme du fonctionnement d'ordinateur avec trois étapes : Entrée, Traitement, Sortie.",
@@ -19,6 +20,12 @@ schemas = [
         "description": "Diagramme circulaire de la théorie des contraintes, outil de coaching d’une entreprise.",
         "schema_type": "diagramme",
         "image_path": "data/images/diagramme_circulaire_contraintes.jpeg"
+    },
+    {
+        "id": 4,
+        "description": "Diagramme de flux sur le creative thinking, graphique et innovant.",
+        "schema_type": "diagramme de flux",
+        "image_path": "data/images/diagramme_flux_creativethinking.png",
     }
 ]
 

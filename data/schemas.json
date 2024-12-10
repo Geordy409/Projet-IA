@@ -16,5 +16,11 @@
         "description": "Diagramme circulaire de la th\u00e9orie des contraintes, outil de coaching d\u2019une entreprise.",
         "schema_type": "diagramme",
         "image_path": "data/images/diagramme_circulaire_contraintes.jpeg"
+    },
+    {
+        "id": 4,
+        "description": "Diagramme de flux sur le creative thinking, graphique et innovant.",
+        "schema_type": "diagramme de flux",
+        "image_path": "data/images/diagramme_flux_creativethinking.png"
     }
 ]
