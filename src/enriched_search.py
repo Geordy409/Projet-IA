@@ -48,7 +48,7 @@ except Exception as e:
     exit(1)
 
 # Assigner directement la clé API OpenAI
-openai.api_key = "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"
+openai.api_key = "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"
 
 def generate_response_gpt(prompt):
     try:

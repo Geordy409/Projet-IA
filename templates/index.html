@@ -3,19 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>RAG Schema Generator</title>
+    <title>Générateur de Diagrammes</title>
 </head>
 <body>
-    <h1>Générateur de Schémas</h1>
+    <h1>Générateur de Diagrammes Interactifs</h1>
     <form method="POST">
-        <label for="query">Entrez une description de schéma :</label>
-        <input type="text" id="query" name="query" required>
+        <label for="query">Entrez une description :</label>
+        <input type="text" id="query" name="query" placeholder="Ex: Organigramme d'entreprise" required>
         <button type="submit">Générer</button>
     </form>
 
+    {% if error %}
+        <p style="color: red;">{{ error }}</p>
+    {% endif %}
+
     {% if image_url %}
-        <h2>Schéma généré :</h2>
-        <img src="{{ image_url }}" alt="Schéma généré">
+        <h2>Résultat pour : {{ query }}</h2>
+        <p>{{ response }}</p>
+        <img src="{{ image_url }}" alt="Schéma généré" style="width: 80%; max-width: 600px;">
     {% endif %}
 </body>
 </html>
